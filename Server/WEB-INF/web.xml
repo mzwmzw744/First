@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <servlet>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>cn.com.servlets.HelloServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeptServlet</servlet-name>
+    <servlet-class>cn.com.servlets.ShowDeptServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.com.servlets.LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ListServlet</servlet-name>
+    <servlet-class>cn.com.servlets.ListServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>UpdateListServlet</servlet-name>
+    <servlet-class>cn.com.servlets.UpdateListServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>DelServlet</servlet-name>
+    <servlet-class>cn.com.servlets.DelServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>UpdateServlet</servlet-name>
+    <servlet-class>cn.com.servlets.UpdateServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>SearchServlet</servlet-name>
+    <servlet-class>cn.com.servlets.SearchServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DeptServlet</servlet-name>
+    <url-pattern>/show</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListServlet</servlet-name>
+    <url-pattern>/list</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateListServlet</servlet-name>
+    <url-pattern>/updateList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelServlet</servlet-name>
+    <url-pattern>/del</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateServlet</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchServlet</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/he</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
